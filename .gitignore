@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+dist/
+build/
+.npm/
+
+# Environment Variables (CRITICAL: Prevents API key leaks!)
+.env
+.env.local
+
+# Local Database & Storage
+chroma-data/
+*.db
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
